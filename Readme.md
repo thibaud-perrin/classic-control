@@ -31,17 +31,17 @@ To run the notebooks, you will need to install the following packages listed in 
 ## Environment Illustrations
 
 - QLearning CartPole/MountainCar/Acrobot
-<div align="center">
-    <img src="./img/cartpole.gif" style="width: 32%" />
-    <img src="./img/mountain_car.gif" style="width: 32%" />
-    <img src="./img/acrobot.gif" style="width: 32%" />
+<div align="center" float="left">
+    <img src="./img/cartpole.gif" width="32%" />
+    <img src="./img/mountain_car.gif" width="32%" />
+    <img src="./img/acrobot.gif" width="32%" />
 </div>
 
 - DQN Acrobot
-<div align="center">
-    <img src="./img/gym.png" style="height:159px;width: 32%;object-fit:contain;background-color: #fff; opacity: 0.25" />
-    <img src="./img/gym.png" style="height:159px;width: 32%;object-fit:contain;background-color: #fff; opacity: 0.25" />
-    <img src="./img/dqn_acrobot.gif" style="width: 32%" />
+<div align="center" float="left">
+    <img src="./img/gym.png" height="248px" width="32%" style="background-color: #fff; opacity: 0.25; object-fit: contain;" />
+    <img src="./img/gym.png" height="248px" width="32%" style="background-color: #fff; opacity: 0.25; object-fit: contain;" />
+    <img src="./img/dqn_acrobot.gif" height="100%" width="32%" />
 </div>
 
 ## Installation
