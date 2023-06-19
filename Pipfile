@@ -9,19 +9,21 @@ jupyterlab = "*"
 matplotlib = "*"
 six21 = "*"
 pyglet = "*"
+imageio = {extras = ["ffmpeg"], version = "*"}
 scipy = "*"
 pyopengl = "*"
+gymnasium = {extras = ["classic-control"], version = "*"}
 pillow = "*"
 opencv-python = "*"
 ipython = "*"
 nodejs-bin = "*"
 jupyter-contrib-nbextensions = "*"
 tensorflow = "*"
+ipywidgets = "*"
 pandas = "*"
-imageio = {extras = ["ffmpeg"], version = "*"}
-gymnasium = {extras = ["classic-control"], version = "*"}
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "3.10"
+python_full_version = "3.10.5"

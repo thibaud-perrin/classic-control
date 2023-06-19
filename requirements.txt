@@ -15,4 +15,5 @@ ipython
 nodejs-bin
 jupyter_contrib_nbextensions
 tensorflow
+ipywidgets
 pandas
