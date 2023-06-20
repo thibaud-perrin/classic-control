@@ -7,6 +7,7 @@ This project demonstrates the use of Q-learning and Deep Q-Networks (DQN) to sol
 - `Acrobot.ipynb`: Partially solves the Acrobot environment with Q-learning.
 - `DQN_Acrobot.ipynb`: Solve the Acrobot environment with DQN.
 - `Pendulum.ipynb`: Solve the Pendulum environment with DDPG.
+- `Pendulum_td3.ipynb`: Solve the Pendulum environment with DDPG TD3 variant.
 
 To run the notebooks, you will need to install the following packages listed in `requirements.txt`:
 - numpy
@@ -36,8 +37,8 @@ You also need torch.
 | QLearning-CartPole | QLearning- MountainCar | QLearning-Acrobot |
 |:-------------------:|:-------------------:|:-------------------:|
 | ![QLearning-CartPole](./img/cartpole.gif) | ![QLearning- MountainCar](./img/mountain_car.gif) | ![QLearning-Acrobot](./img/acrobot.gif) |
-| **DQN-Acrobot** | **DDPG-Pendulum** |  |
-| ![DQN-Acrobot](./img/dqn_acrobot.gif) | ![DDPG-Pendulum](./img/pendulum.gif) |  |
+| **DQN-Acrobot** | **DDPG-Pendulum** | **TD3-Pendulum** |
+| ![DQN-Acrobot](./img/dqn_acrobot.gif) | ![DDPG-Pendulum](./img/pendulum.gif) | ![TD3-Pendulum](./img/pendulum_td3.gif) |
 
 
 ## Installation
@@ -63,17 +64,23 @@ jupyter nbextensions_configurator enable --user
     - cartpole.gif
     - mountain_car.gif
     - pendulum.gif
+    - pendulum_td3.gif
     - gym.png
 - saves/
   - dqn_acrobot_model.h5
   - pendulum_actor_model.pth
   - pendulum_critic_model.pth
+  - pendulum_td3_actor_model.pth
+  - pendulum_td3_critic_model1.pth
+  - pendulum_td3_critic_model2.pth
 - Pipfile
 - Pipfile.lock
 - CartPole.ipynb
 - MountainCar.ipynb
 - Acrobot.ipynb
 - DQN_Acrobot.ipynb
+- Pendulum.ipynb
+- Pendulum_TD3.ipynb
 - README.md
 - requirements.txt
 
